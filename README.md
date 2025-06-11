@@ -1,10 +1,10 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/Aiting-for-you/smart-water-system/main/.github/assets/logo.png" alt="logo" width="200"/>
 
-  <h1 align="center">智能用水习惯分析与节能控制系统</h1>
+  <h1 align="center">Smart Water Usage Analysis and Energy-saving Control System</h1>
   
   <p align="center">
-    一个旨在通过深度数据分析，为现代楼宇提供智能化、可视化用水管理与节能策略的全栈Web应用。
+    A full-stack web application designed to provide intelligent, visualized water management and energy-saving strategies for modern buildings through deep data analysis.
   </p>
   
   <p align="center">
@@ -14,116 +14,120 @@
     <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
     <img src="https://img.shields.io/github/last-commit/Aiting-for-you/smart-water-system" alt="last commit">
   </p>
+  
+  <p align="center">
+    <a href="README.md">English</a> | <a href="README-CN.md">简体中文</a>
+  </p>
 </div>
 
 ---
 
-## 🌟 项目简介
+## 🌟 Project Introduction
 
-在现代楼宇管理中，水资源的有效利用与能源节约是两大核心挑战。"智能用水习惯分析与节能控制系统" 应运而生，它不仅仅是一个数据分析工具，更是一个决策支持平台。通过上传历史用水数据（CSV格式），系统能够自动进行多维度的深度分析，并以高度可视化的方式呈现结果，最终生成包含具体节能建议的专业分析报告。
+In modern building management, effective water resource utilization and energy conservation are two core challenges. The "Smart Water Usage Analysis and Energy-saving Control System" was developed to address these needs. It is not just a data analysis tool but also a decision support platform. By uploading historical water usage data (CSV format), the system can automatically perform multi-dimensional deep analysis, present results in a highly visualized manner, and ultimately generate professional analysis reports with specific energy-saving recommendations.
 
-![应用截图预览](https://raw.githubusercontent.com/Aiting-for-you/smart-water-system/main/.github/assets/preview.gif)
-> *提示: 上图是一个示例GIF，您可以替换为您自己录制的应用操作录屏。*
+![Application Preview](https://raw.githubusercontent.com/Aiting-for-you/smart-water-system/main/.github/assets/preview.gif)
+> *Note: The above GIF is an example. You can replace it with your own application screen recording.*
 
-## ✨ 核心功能
+## ✨ Core Features
 
-| 功能模块 | 详细描述 |
+| Feature Module | Detailed Description |
 | :--- | :--- |
-| **📊 数据洞察** | 支持CSV文件上传，自动完成数据清洗、转换和预处理。 |
-| **🧠 智能分析** | 从**每小时**、**每周**、**不同楼栋**、**工作日与周末**等多个维度进行深入分析。|
-| **📈 可视化仪表盘** | 将复杂的分析结果通过一系列直观的图表（柱状图、热力图、箱线图、饼图等）清晰展示。|
-| **📄 报告自动生成** | 一键生成图文并茂的专业分析报告（Markdown格式），并支持下载为TXT文件。|
-| **💡 节能策略建议** | 基于用水高峰时段，为增压泵的启停控制提供**定量的运行时间建议**和**节能比例预测**。|
-| **🔒 安全与认证** | 使用 **JWT (JSON Web Tokens)** 提供安全的、基于令牌的用户注册与登录认证。|
-| **🗂️ 历史追溯** | 自动保存并展示历次的分析结果，方便用户随时追溯和对比不同时期的用水模式。|
+| **📊 Data Insights** | Support for CSV file uploads, with automatic data cleaning, transformation, and preprocessing. |
+| **🧠 Intelligent Analysis** | In-depth analysis from multiple dimensions including **hourly**, **weekly**, **different buildings**, **workdays and weekends**, etc. |
+| **📈 Visualization Dashboard** | Display complex analysis results clearly through a series of intuitive charts (bar charts, heatmaps, box plots, pie charts, etc.). |
+| **📄 Automatic Report Generation** | One-click generation of professional analysis reports (Markdown format) with rich graphics and text, supporting download as TXT files. |
+| **💡 Energy-saving Strategy Recommendations** | Based on peak water usage periods, provide **quantitative operation time suggestions** and **energy-saving ratio predictions** for booster pump control. |
+| **🔒 Security and Authentication** | Use **JWT (JSON Web Tokens)** to provide secure, token-based user registration and login authentication. |
+| **🗂️ Historical Tracking** | Automatically save and display previous analysis results, allowing users to easily track and compare water usage patterns from different periods. |
 
-## 🚀 技术栈
+## 🚀 Technology Stack
 
-| 分类 | 技术 | 描述 |
+| Category | Technology | Description |
 |:--- |:---|:---|
-| **后端** | `Python`, `Flask`, `SQLAlchemy` | 强大的后端逻辑与数据处理能力。 |
-| | `Pandas`, `NumPy`, `Scikit-learn` | 专业的数据分析与机器学习库。 |
-| | `Matplotlib`, `Seaborn` | 灵活的后台图表生成。 |
-| **前端** | `React`, `TypeScript` | 现代化的、类型安全的前端框架。 |
-| | `Vite` | 极速的下一代前端构建工具。 |
-| | `Axios` | 成熟的、基于Promise的HTTP客户端。 |
-| **数据库**| `SQLite` / `PostgreSQL` | 开发环境使用SQLite，生产环境推荐PostgreSQL。 |
-| **认证** | `Flask-JWT-Extended` | 业内标准的JWT实现，保障API安全。|
-| **部署** | `Docker`, `Docker Compose` | 提供容器化的一键部署方案。 |
+| **Backend** | `Python`, `Flask`, `SQLAlchemy` | Powerful backend logic and data processing capabilities. |
+| | `Pandas`, `NumPy`, `Scikit-learn` | Professional data analysis and machine learning libraries. |
+| | `Matplotlib`, `Seaborn` | Flexible backend chart generation. |
+| **Frontend** | `React`, `TypeScript` | Modern, type-safe frontend framework. |
+| | `Vite` | Ultra-fast next-generation frontend build tool. |
+| | `Axios` | Mature, Promise-based HTTP client. |
+| **Database**| `SQLite` / `PostgreSQL` | SQLite for development environment, PostgreSQL recommended for production. |
+| **Authentication** | `Flask-JWT-Extended` | Industry-standard JWT implementation ensuring API security. |
+| **Deployment** | `Docker`, `Docker Compose` | Containerized one-click deployment solution. |
 
-## 🔧 本地开发指南
+## 🔧 Local Development Guide
 
-### 1. 环境准备
-- 安装 `Python 3.10+`, `Node.js 16+`, `Git`。
-- 克隆本项目到本地。
+### 1. Environment Preparation
+- Install `Python 3.10+`, `Node.js 16+`, `Git`.
+- Clone this project to your local machine.
 
-### 2. 后端启动
+### 2. Backend Setup
 ```bash
-# 1. 进入项目根目录
+# 1. Navigate to the project root directory
 cd smart-water-system
 
-# 2. 创建并激活Python虚拟环境 (推荐)
+# 2. Create and activate Python virtual environment (recommended)
 python -m venv .venv
 source .venv/bin/activate  # macOS/Linux
 # .venv\Scripts\activate  # Windows
 
-# 3. 安装后端依赖
+# 3. Install backend dependencies
 pip install -r backend/requirements.txt
 
-# 4. 初始化数据库 (首次运行时需要)
+# 4. Initialize the database (required for first-time setup)
 # flask db init
 flask db migrate -m "Initial migration."
 flask db upgrade
 
-# 5. 运行后端服务 (默认 http://127.0.0.1:5000)
+# 5. Run the backend service (default: http://127.0.0.1:5000)
 python backend/app.py
 ```
 
-### 3. 前端启动
+### 3. Frontend Setup
 ```bash
-# 1. 打开一个新的终端，进入前端目录
+# 1. Open a new terminal and navigate to the frontend directory
 cd frontend
 
-# 2. 安装前端依赖
+# 2. Install frontend dependencies
 npm install
 
-# 3. 运行前端开发服务器 (默认 http://127.0.0.1:5173)
+# 3. Run the frontend development server (default: http://127.0.0.1:5173)
 npm run dev
 ```
-启动成功后，在浏览器中打开前端地址即可开始使用。
+After successful startup, open the frontend address in your browser to begin using the application.
 
-## 📁 项目结构概览
+## 📁 Project Structure Overview
 ```
 smart-water-system/
-├── backend/            # 后端Flask应用
-│   ├── services/       # 核心分析服务 (water_habit_analysis.py)
-│   ├── routes/         # API路由定义
-│   ├── models/         # SQLAlchemy数据模型
-│   ├── fonts/          # 存放字体文件
-│   └── app.py          # 应用入口
-├── frontend/           # 前端React应用
+├── backend/            # Backend Flask application
+│   ├── services/       # Core analysis services (water_habit_analysis.py)
+│   ├── routes/         # API route definitions
+│   ├── models/         # SQLAlchemy data models
+│   ├── fonts/          # Font files
+│   └── app.py          # Application entry point
+├── frontend/           # Frontend React application
 │   ├── src/
-│   │   ├── pages/      # 各页面组件
-│   │   ├── api/        # API请求模块
+│   │   ├── pages/      # Page components
+│   │   ├── api/        # API request modules
 │   │   ├── context/    # React Context
-│   └── vite.config.ts  # Vite配置
-├── .gitignore          # Git忽略配置
-├── README.md           # 就是你正在看的这个文件
-└── requirements.txt    # 顶层依赖(可选)
+│   └── vite.config.ts  # Vite configuration
+├── .gitignore          # Git ignore configuration
+├── README.md           # This file you're reading
+└── requirements.txt    # Top-level dependencies (optional)
 ```
 
-## 🤝 贡献
-我们欢迎任何形式的贡献！无论是提交Bug、建议新功能还是直接贡献代码。
-1.  Fork 本仓库
-2.  创建您的特性分支 (`git checkout -b feature/AmazingFeature`)
-3.  提交您的修改 (`git commit -m 'Add some AmazingFeature'`)
-4.  推送到分支 (`git push origin feature/AmazingFeature`)
-5.  创建一个新的 Pull Request
+## 🤝 Contribution
+We welcome contributions of any form! Whether it's submitting bugs, suggesting new features, or directly contributing code.
+1. Fork this repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Create a new Pull Request
 
-## 📄 许可证
-本项目采用 [MIT](https://opensource.org/licenses/MIT) 许可证。
+## 📄 License
+This project is licensed under the [MIT](https://opensource.org/licenses/MIT) License.
 
 ---
 <p align="center">
-  <em>本项目在Cursor的辅助下高效完成开发，生动展示了AI在全栈应用开发中的巨大潜力和价值。</em>
+  <em>This project was efficiently developed with the assistance of Cursor, vividly demonstrating the immense potential and value of AI in full-stack application development.</em>
 </p> 
