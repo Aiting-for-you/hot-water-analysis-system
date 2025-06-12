@@ -26,8 +26,6 @@
 
 In modern building management, effective water resource utilization and energy conservation are two core challenges. The "Smart Water Usage Analysis and Energy-saving Control System" was developed to address these needs. It is not just a data analysis tool but also a decision support platform. By uploading historical water usage data (CSV format), the system can automatically perform multi-dimensional deep analysis, present results in a highly visualized manner, and ultimately generate professional analysis reports with specific energy-saving recommendations.
 
-![Application Preview](https://raw.githubusercontent.com/Aiting-for-you/smart-water-system/main/.github/assets/preview.gif)
-> *Note: The above GIF is an example. You can replace it with your own application screen recording.*
 
 ## ✨ Core Features
 
@@ -127,7 +125,3 @@ We welcome contributions of any form! Whether it's submitting bugs, suggesting n
 ## 📄 License
 This project is licensed under the [MIT](https://opensource.org/licenses/MIT) License.
 
----
-<p align="center">
-  <em>This project was efficiently developed with the assistance of Cursor, vividly demonstrating the immense potential and value of AI in full-stack application development.</em>
-</p> 

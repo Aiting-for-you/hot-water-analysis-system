@@ -26,8 +26,7 @@
 
 在现代楼宇管理中，水资源的有效利用与能源节约是两大核心挑战。"智能用水习惯分析与节能控制系统" 应运而生，它不仅仅是一个数据分析工具，更是一个决策支持平台。通过上传历史用水数据（CSV格式），系统能够自动进行多维度的深度分析，并以高度可视化的方式呈现结果，最终生成包含具体节能建议的专业分析报告。
 
-![应用截图预览](https://raw.githubusercontent.com/Aiting-for-you/smart-water-system/main/.github/assets/preview.gif)
-> *提示: 上图是一个示例GIF，您可以替换为您自己录制的应用操作录屏。*
+
 
 ## ✨ 核心功能
 
@@ -127,7 +126,3 @@ smart-water-system/
 ## 📄 许可证
 本项目采用 [MIT](https://opensource.org/licenses/MIT) 许可证。
 
----
-<p align="center">
-  <em>本项目在Cursor的辅助下高效完成开发，生动展示了AI在全栈应用开发中的巨大潜力和价值。</em>
-</p> 
