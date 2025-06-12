@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white" alt="Python Version">
     <img src="https://img.shields.io/badge/Flask-2.x-black?logo=flask&logoColor=white" alt="Flask Version">
     <img src="https://img.shields.io/badge/React-18.x-blue?logo=react&logoColor=white" alt="React Version">
-    <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
+    <img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License">
     <img src="https://img.shields.io/github/last-commit/Aiting-for-you/smart-water-system" alt="last commit">
   </p>
   
@@ -123,5 +123,5 @@ We welcome contributions of any form! Whether it's submitting bugs, suggesting n
 5. Create a new Pull Request
 
 ## 📄 License
-This project is licensed under the [MIT](https://opensource.org/licenses/MIT) License.
+This project is licensed under the [Apache License 2.0](LICENSE).
 

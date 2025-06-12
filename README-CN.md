@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white" alt="Python Version">
     <img src="https://img.shields.io/badge/Flask-2.x-black?logo=flask&logoColor=white" alt="Flask Version">
     <img src="https://img.shields.io/badge/React-18.x-blue?logo=react&logoColor=white" alt="React Version">
-    <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
+    <img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License">
     <img src="https://img.shields.io/github/last-commit/Aiting-for-you/smart-water-system" alt="last commit">
   </p>
   
@@ -109,7 +109,7 @@ smart-water-system/
 │   │   ├── pages/      # 各页面组件
 │   │   ├── api/        # API请求模块
 │   │   ├── context/    # React Context
-│   └── vite.config.ts  # Vite配置
+│   │   └── vite.config.ts  # Vite配置
 ├── .gitignore          # Git忽略配置
 ├── README.md           # 就是你正在看的这个文件
 └── requirements.txt    # 顶层依赖(可选)
@@ -124,5 +124,5 @@ smart-water-system/
 5.  创建一个新的 Pull Request
 
 ## 📄 许可证
-本项目采用 [MIT](https://opensource.org/licenses/MIT) 许可证。
+本项目采用 [Apache License 2.0](LICENSE) 许可证。
 
